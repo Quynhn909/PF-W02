@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Bài tập] Tính lãi suất ngân hàng</title>
+</head>
+<body>
+    <script>
+    let A = parseInt(prompt("Nhap so tien vay")); 
+    let B = parseInt(prompt("Nhap lai suat")); 
+    let C = parseInt(prompt("Nhap so nam")); 
+
+    let so_tien_lai =  (A * (B/100));
+    let so_tien_ca_goc_lan_lai = (A + (so_tien_lai * C));
+
+    alert("So tien phai tra tong cong la " + so_tien_ca_goc_lan_lai);
+    </script>
+    
+</body>
+</html>
